@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DSC 19.4</title>
+  </head>
+  <script>
+    /*While*/
+    var i = 0;
+
+    var arr = [1, 2, 3, 4, 5];
+
+    while (i < 10) {
+      console.log("i is less than 10");
+      i++;
+    }
+
+    /*for*/
+    for (var j = 0; j < 10; j++) {
+      console.log("j is less than 10");
+    }
+
+    for (var itr = 0; itr < 5; itr++) {
+      console.log(arr[itr]);
+    }
+
+    /*do while*/
+    var k = 0;
+    do {
+      console.log("k is less than 10");
+      k++;
+    } while (k < 10);
+
+    /*function*/
+
+    function foo() {
+      console.log("hello from foo");
+    }
+
+    function getInfo() {
+      //   return 5;
+      return {
+        age: 15,
+        name: "Samarth"
+      };
+    }
+
+    foo();
+    var info = getInfo();
+    console.log(info);
+  </script>
+  <body>
+    loops and functions
+  </body>
+</html>

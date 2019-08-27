@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DSC 19.4</title>
+    <script>
+      var condition = true,
+        condition2 = false;
+      if (condition) {
+        console.log("true condition");
+      }
+
+      if (condition2) {
+        //wont work
+        console.log("this won't work");
+      } else {
+        console.log("this will work");
+      }
+
+      if (condition2) {
+        //wont work
+      } else if (condition) {
+        console.log("this will work");
+      } else {
+        //wont work
+      }
+    </script>
+  </head>
+  <body>
+    if else
+  </body>
+</html>

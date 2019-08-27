@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script>
+      /*string operations*/
+      var str = "Samarth Sharma";
+      console.log(str.toUpperCase());
+      console.log(str.toLowerCase());
+      console.log(str.substr(0, 8));
+
+      /*array operations*/
+      var arr = new Array();
+
+      arr.push(5);
+      arr.push(6);
+      console.log(arr);
+      arr.pop();
+      console.log(arr);
+      console.log(arr.length);
+      console.log(arr[0]);
+
+      /*object operations*/
+
+      var obj = new Object();
+      obj.firstName = "Samarth";
+      obj.LastName = "Sharma";
+      obj.age = 19;
+      obj.getInfo = function() {
+        return this.age + " " + this.LastName + " " + this.firstName;
+      };
+
+      console.log(obj);
+      console.log(obj.getInfo());
+      /*data conversion*/
+      var integer = 13;
+      console.log(integer.toString());
+
+      var floatingNumber = 13.5;
+      console.log(parseInt(floatingNumber));
+    </script>
+  </head>
+  <body>
+    String operations,array operations,object operations,data conversion
+  </body>
+</html>
