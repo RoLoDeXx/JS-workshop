@@ -6,12 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <script>
-      /*string operations*/
-      var str = "Samarth Sharma";
-      console.log(str.toUpperCase());
-      console.log(str.toLowerCase());
-      console.log(str.substr(0, 8));
-
       /*array operations*/
       var arr = new Array();
 
@@ -41,6 +35,35 @@
 
       var floatingNumber = 13.5;
       console.log(parseInt(floatingNumber));
+
+      /*string operations*/
+      var str = "Vlogger:  Bhai 100-200 jada lele lekin land kra de! ";
+      console.log(str.length);
+
+      console.log(str.toUpperCase());
+      console.log(str.toLowerCase());
+      console.log(str.substr(0, 8));
+
+      var str2 = "Instructor : paaon upar kr!!!";
+      console.log(str.concat(str2));
+
+      var copyStr = "Vlogger:  Bhai 100-200 jada lele lekin land kra de! ";
+      console.log(copyStr.slice(-45, -1));
+
+      var keyWord = "200";
+
+      if (str.includes(keyWord)) {
+        console.log("Successfully landed");
+      }
+
+      str.replace("100-200", "500");
+      console.log(str);
+
+      var strArr = str.split(" ");
+      console.log(strArr);
+
+      strArr.join(" ");
+      console.log(strArr);
     </script>
   </head>
   <body>
