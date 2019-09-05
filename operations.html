@@ -64,6 +64,8 @@
 
       // strArr.join(" ");
       // console.log(strArr);
+      var str = "lorem ipsum"; // string type data
+      var str1 = new String("lorem ipsum"); //str1 is an object
 
       word = "lorem";
       position = 0;
@@ -76,12 +78,12 @@
       //alternative for conacatenation
       str = str + str1; //but it will change the str
       //BOOLEAN BASED
-      str.include(word); //to find whether word exist in string
+      str.includes(word); //to find whether word exist in string
       str.endsWith(word, length); //lenght to check where to end searching it in last with
       str.startsWith(word, position); //position to start from by default 0
       //SUBSTRINGS,SEARCHING AND SLICING
-      str.indexof(word, position); //if nt found return -1
-      str.lastIndexof(word, position); //if nt found return -1
+      str.indexOf(word, position); //if nt found return -1
+      str.lastIndexOf(word, position); //if nt found return -1
       var pos = str.search("rem"); //differnce between search and indexof no other parameter in search
       // IN SLICNG GIVE START AND ENDING POINT IT WILL TAKE OUT THAT PART OF STRING
       //STARTING SHOULD BE SMALL THEN ENDING slice(start,end)
