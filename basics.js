@@ -113,8 +113,3 @@ function multiply(){
 
 multiply();
 
-function list_params(...args){
-    console.log(args);
-}
-
-list_params(1,2,3,4,5,6);
